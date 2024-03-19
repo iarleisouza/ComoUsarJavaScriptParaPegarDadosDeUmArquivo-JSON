@@ -1,2 +1,2 @@
 # Como-Usar-JavaScript-para-Pegar-Dados-de-um-Arquivo-JSON
-https://youtu.be/nQxS2ZRnPgQ?si=Sp94C624VFAamISS
+https://youtu.be/odrfZGVy2E4?si=lIsAdYt1cEOinTB5
