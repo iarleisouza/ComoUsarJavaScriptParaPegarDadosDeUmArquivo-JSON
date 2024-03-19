@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegando dados do Json</title>
+</head>
+<body>
+    
+    <div id="Cadastro"></div>
+
+
+    <script>
+
+        const divCadastro = document.querySelector('#Cadastro');
+
+        fetch('arquivo.json').then(resposta =>{
+            return resposta.json();
+        }).then ((informacoes)=>{
+            informacoes.funcionarios.map(listagem =>{
+                divCadastro.innerHTML += `<li>${listagem.nome} -
+                 ${listagem.idade} - ${listagem.profissao} </li>`
+            })
+
+        })
+
+
+
+
+    </script>
+</body>
+</html>

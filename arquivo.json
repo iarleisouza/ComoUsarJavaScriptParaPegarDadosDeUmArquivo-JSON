@@ -1,0 +1,18 @@
+
+{
+    "funcionarios":[
+
+        {
+            "nome":"Marcos",
+            "idade": 40,
+            "profissao": "Analista de Redes"
+        },
+        {
+            "nome":"Ricardo",
+            "idade": 40,
+            "profissao": "Analista de Dados"
+        }
+
+
+    ]
+}
